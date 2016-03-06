@@ -7,4 +7,3 @@ services:
 install:
   - docker build -t davvdg/micmac-docker .
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push davvdg/micmac-docker
